@@ -1,0 +1,29 @@
+<% include ./partials/header%>
+
+<div class="ui main text container segment">
+    <div class="ui huge header">New Recipe</div>
+    <form class="ui form" action = '/new' method = 'POST'>
+        <div class="'field">
+            <label>Title</label>
+            <input required type="text" name="recipe[name]" placeholder="title">
+        </div>
+
+        <div class="'field">
+            <label>Image</label>
+            <input  type="text" name="recipe[image]" placeholder="image">
+        </div>
+
+        <div class="'field">
+            <label>Recipe Content</label>
+            <textarea required name="recipe[description]"></textarea>
+        </div>
+        <input class="ui violet inverted button  " type="submit">
+
+    </form>
+</div>
+
+
+
+
+
+<% include ./partials/footer%>

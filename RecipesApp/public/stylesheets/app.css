@@ -1,0 +1,13 @@
+body {
+    background-color: #D2E0E6;
+}
+
+.ui.grid{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+#delete {
+    display: inline;
+}
